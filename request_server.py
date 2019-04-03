@@ -68,9 +68,8 @@ class Demo:
         r = self.rget.json()
         #print(r)
         for k in many:
-            #print(k)
+
             self.rdel = requests.delete(url=self.url + k)
-            #print(self.rdel)
         return self.rdel
 
 
